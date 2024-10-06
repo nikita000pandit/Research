@@ -1,0 +1,48 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  .home-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .home-header p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  .home-navigation {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+  .nav-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  .nav-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .nav-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  .nav-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .nav-link:hover {
+    background-color: #45a049;
+  }
